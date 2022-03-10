@@ -22,7 +22,7 @@ export default function Navbar(props: INavbarProps) {
       <main className="">
         <div className="bg-zinc-200 dark:bg-zinc-800">
           <header className="max-w-screen-lg m-auto px-5">
-            <h1 className="text-6xl font-medium py-10 pt-40">
+            <h1 className="sm:text-6xl text-5xl font-medium py-10 pt-40">
               {props.pageTitle}
             </h1>
           </header>
