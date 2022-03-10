@@ -1,19 +1,17 @@
 import * as React from "react";
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 30,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
+import { Link } from "gatsby";
+import Navbar from "../components/navbar";
+import "../styles/index.css";
+import "../styles/style.css";
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1>Does this website work?</h1>
-      <h2>Interesting!</h2>
+    <main className="dark:bg-black bg-white">
+      <Navbar pageTitle="Home Page">
+        <p>I'm making this by following the Gatsby Tutorial.</p>
+        <h1 className="md:p-6 text-sky-400 text-9xl ">Love!??? yes</h1>
+      </Navbar>
     </main>
   );
 };
