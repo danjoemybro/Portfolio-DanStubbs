@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./footer";
 import NavbarLinkItem from "./NavBarLinkItem";
 
 export interface INavbarProps {
@@ -31,6 +32,7 @@ export default function Navbar(props: INavbarProps) {
           {props.children}
         </article>
       </main>
+      <Footer />
     </div>
   );
 }

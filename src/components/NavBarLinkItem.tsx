@@ -9,7 +9,7 @@ export interface INavbarLinkItemProps {
 export default function NavbarLinkItem(props: INavbarLinkItemProps) {
   return (
     <Link
-      className="p-4 hover:bg-zinc-200 dark:hover:bg-zinc-700 active:bg-zinc-300 dark:active:bg-zinc-600"
+      className="p-4 text-zinc-600 hover:text-black dark:text-zinc-200 dark:hover:text-zinc-50 duration-200"
       to={props.pageRoute}
     >
       {props.pageTitle}
