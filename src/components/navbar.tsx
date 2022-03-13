@@ -17,7 +17,7 @@ export default function Navbar(props: INavbarProps) {
           <NavbarLinkItem pageTitle="About" pageRoute="/about" />
           <NavbarLinkItem pageTitle="Name" pageRoute="/about/name" />
           <div className="grow"></div>
-          <NavbarLinkItem pageTitle="Name" pageRoute="/about/name" />
+          <NavbarLinkItem pageTitle="Mac Compare" pageRoute="/mac-compare" />
         </div>
       </nav>
       <main className="">

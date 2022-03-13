@@ -8,6 +8,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx",
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
