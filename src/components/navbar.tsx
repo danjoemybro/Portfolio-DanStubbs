@@ -10,12 +10,11 @@ export interface INavbarProps {
 export default function Navbar(props: INavbarProps) {
   return (
     <div className="">
-      <title>{props.pageTitle}</title>
+      <title>Dan Stubbs | {props.pageTitle}</title>
       <nav className="bg-zinc-100 dark:bg-zinc-800 shadow-lg fixed top-0 w-full">
         <div className=" flex max-w-screen-lg m-auto">
           <NavbarLinkItem pageTitle="Home" pageRoute="/" />
           <NavbarLinkItem pageTitle="About" pageRoute="/about" />
-          <NavbarLinkItem pageTitle="Name" pageRoute="/about/name" />
           <div className="grow"></div>
           <NavbarLinkItem pageTitle="Mac Compare" pageRoute="/mac-compare" />
         </div>

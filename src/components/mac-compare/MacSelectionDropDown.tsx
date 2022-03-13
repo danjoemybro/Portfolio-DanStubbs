@@ -6,7 +6,7 @@ export default function MacSelectionDropDown(
   props: IMacSelectionDropDownProps
 ) {
   return (
-    <select id="selector-2" className="w-full">
+    <select id="selector-2" className="w-full p-2">
       <optgroup label="Notebooks">
         <option value="compare-4386153e-88a6-4ba9-a29c-bd22b2fba147">
           MacBook Pro 14-in. (2021)

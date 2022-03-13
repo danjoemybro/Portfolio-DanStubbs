@@ -18,7 +18,7 @@ export default function MacCompareSelectionButton(
   props: IMacCompareSelectionButtonProps
 ) {
   return (
-    <button className="border rounded-sm text-left p-1 px-2 hover:bg-zinc-700 duration-100 flex flex-col gap-1 border-zinc-500">
+    <button className="border rounded-sm text-left p-1 px-2 hover:border-zinc-400 duration-300 flex flex-col gap-1 border-zinc-500">
       <div className="flex flex-row w-full">
         <h3 className="font-light">{props.title}</h3>
         <div className="grow"></div>

@@ -6,7 +6,7 @@ export interface IMacCompareProps {}
 
 export default function MacCompare(props: IMacCompareProps) {
   return (
-    <Navbar pageTitle="Mac Compare Page">
+    <Navbar pageTitle="Mac Compare">
       <div className="grid sm:grid-cols-3 gap-2">
         <MacCompareColumn />
         <MacCompareColumn />

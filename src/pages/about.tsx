@@ -12,7 +12,7 @@ export interface IAboutPageProps {}
 
 export default function AboutPage(props: IAboutPageProps) {
   return (
-    <Navbar pageTitle="About Page">
+    <Navbar pageTitle="About">
       <article>
         <section className="py-10">
           <h2 className="py-3 text-2xl">
